@@ -1,0 +1,20 @@
+.siteHeader {
+  margin-bottom: 2em;
+  margin-top: -2em;
+}
+
+.siteTitle {
+  color: var(--color-background);
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+.siteSubtitle {
+  color: var(--color-background);
+  font-family: var(--font-secondary);
+  text-align: center;
+  margin-top: -1em;
+  font: size 1.75em;
+  text-transform: uppercase;
+}

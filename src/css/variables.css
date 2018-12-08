@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:300|Rubik:900");
+
+:root {
+  --color-background: rgb(246, 230, 233);
+  --color-primary: rgb(32, 43, 76);
+  --color-primary--lighter: rgb(51, 71, 129);
+  --color-valid: rgb(15, 120, 4);
+  --color-error: rgb(185, 6, 31);
+  --font-primary: "Rubik", sans-serif;
+  --font-secondary: "Raleway", sans-serif;
+  --box-shadow: 0px 3px 15px 0px var(--color-primary);
+  --text-shadow: 0px 3px 5px var(--color-primary);
+  --border-radius: 0.5em;
+}

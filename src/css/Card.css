@@ -1,0 +1,14 @@
+.card {
+  position: relative;
+  z-index: 2;
+}
+
+.cardContents {
+  background-color: var(--color-background);
+  display: inline-block;
+  padding: 1.5em;
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+  width: 25em;
+}

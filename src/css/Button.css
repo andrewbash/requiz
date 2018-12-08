@@ -1,0 +1,22 @@
+button {
+  font-size: 1em;
+  background-color: var(--color-primary);
+  border: none;
+  color: var(--color-background);
+  font-family: var(--font-secondary);
+  padding: 1em;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+  transition: background 150ms, box-shadow 150ms ease-out;
+  transition-delay: background 150ms;
+}
+button:hover {
+  background-color: var(--color-primary--lighter);
+  transition-delay: background 0ms;
+}
+
+button:disabled {
+  --box-shadow: 0px 1px 5px 0px var(--color-primary);
+  cursor: not-allowed;
+}
